@@ -15,6 +15,7 @@ def summon_captain_planet(planeteer_calls)
   planateer_calls.map do |call|
     cp_call << call.capitalize
   end
+  cp_call
 end
 
 def long_planeteer_calls(planeteer_calls)
